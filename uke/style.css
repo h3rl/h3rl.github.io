@@ -1,0 +1,51 @@
+.NOM, body, html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+a:any-link {
+  color: #c8c8c8;
+}
+
+.fullscreen-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 4px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#controls{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 100;
+}

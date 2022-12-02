@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SoundVisualizer</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+    <div class="fullscreen-container">
+        <canvas></canvas>
+        <audio src="../src/audio/cold.mp3"></audio>
+        <div id="controls">
+            <button id="audioctrl"></button>
+            <label>Volume: </label>
+            <input type="range" id="" min="0" max="100" default="20">
+            <label id="volout">50%</label>
+            <select id="songselect">
+                <option value="cold">Cold</option>
+                <option value="nico">Nico</option>
+                <option value="brooklyn">Brooklyn</option>
+                <option value="killstation">Killstation</option>
+                <option value="moe">Moe</option>
+                <option value="new">New</option>
+            </select>
+            <a href="../" >back</a>
+        </div>
+        <footer>
+            &copy; h3rl 2021
+        </footer>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="../src/scripts/jquery-3.5.1.min.js"></script>
+    <!--<script type="text/javascript" src="./decode.js"></script>-->
+  </body>
+</html>
